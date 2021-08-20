@@ -1,6 +1,6 @@
 package assessment;
 
 public interface BankAccount {
-void CheckBankBalance(int b);
-void validateUser(String user);
+public abstract void CheckBankBalance(int b);
+public abstract void validateUser(String user);
 }
